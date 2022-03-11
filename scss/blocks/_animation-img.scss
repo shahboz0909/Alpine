@@ -1,0 +1,66 @@
+.animation-section {
+  padding-top: 140px;
+}
+.animation-box {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.animation-img {
+  margin: 0;
+  padding: 0;
+  width: 293px;
+  height: 237px;
+  transition: all 0.5s ease;
+}
+.animation-img:hover {
+  transform: translateY(-70px);
+}
+
+.marketing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.market-btn {
+width: 142px;
+height: 27px;
+background: linear-gradient(180deg, #864A23 0%, #6A3A1B 100%);
+border-radius: 20px;
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 149.8%;
+/* or 21px */
+
+
+color: #FFFFFF;
+}
+
+.market {
+width: 151px;
+height: 35px;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+color: #FFFFFF;
+}
+
+.edit-img {
+width: 12px;
+height: 12px;
+color: #FFFFFF;
+}
+.sms {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+

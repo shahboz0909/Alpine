@@ -1,0 +1,30 @@
+.clients {
+  background-image: url('../../img/Rectangle.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.clients-list {
+  margin: 0;
+  padding: 0;
+  width: 842px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pictures-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.pictures-item {
+  display: block;
+  align-items: center;
+}
+.align {
+  display: block;
+  align-items: center;
+}
