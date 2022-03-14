@@ -973,7 +973,6 @@ footer {
 
 .footer-inner {
   width: 1282px;
-  height: 125px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -988,6 +987,8 @@ footer {
 }
 
 .footer-list {
+  margin: 0;
+  padding: 0;
   width: 427px;
   list-style-type: none;
   display: -webkit-box;
