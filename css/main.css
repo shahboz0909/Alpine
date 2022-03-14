@@ -358,8 +358,10 @@ body {
   font-family: Paytone One;
   margin: 0;
   padding: 0;
+}
+
+main {
   background-image: url("../img/Rectangle.png");
-  background-position: left top;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -421,7 +423,7 @@ body {
 
 /*==============END HEADER===============*/
 /*==============MAIN===============*/
-.main {
+.box-shadow {
   -webkit-transform: translateY(-584px);
           transform: translateY(-584px);
   width: 994px;
@@ -871,9 +873,11 @@ body {
 }
 
 .clients {
-  background-image: url("../../img/Rectangle.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  -webkit-transform: translateY(-584px);
+          transform: translateY(-584px);
+  width: 994px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .clients-list {
@@ -895,25 +899,67 @@ body {
 }
 
 .pictures-list {
+  margin: 0;
+  padding: 0;
+  width: 842px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  position: relative;
+  top: -17px;
+  right: -15px;
+}
+
+.align {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.pictures-item {
-  display: block;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.align-img {
+  width: 89px;
+  height: 91px;
 }
 
-.align {
-  display: block;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.pictures-text {
+  width: 268px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 149.8%;
+}
+
+.position1 {
+  margin-right: 20px;
+}
+
+.position2 {
+  position: relative;
+  right: 28px;
+}
+
+.position3 {
+  margin-right: 50px;
+}
+
+.footer-inner {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../img/footer.bcg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

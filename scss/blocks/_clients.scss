@@ -1,7 +1,8 @@
 .clients {
-  background-image: url('../../img/Rectangle.png');
-  background-repeat: no-repeat;
-  background-position: center;
+  transform: translateY(-584px);
+  width: 994px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .clients-list {
   margin: 0;
@@ -16,15 +17,42 @@
 }
 
 .pictures-list {
-  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 842px;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
 }
-.pictures-item {
-  display: block;
-  align-items: center;
+.logo {
+  position: relative;
+  top: -17px;
+  right: -15px;
 }
 .align {
-  display: block;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.align-img {
+  width: 89px;
+  height: 91px;
+}
+.pictures-text {
+  width: 268px;
+  font-style: normal;
+font-size: 18px;
+line-height: 149.8%;
+}
+.position1 {
+  margin-right: 20px;
+}
+.position2 {
+  position: relative;
+  right: 28px;
+}
+.position3 {
+  margin-right: 50px;
 }
